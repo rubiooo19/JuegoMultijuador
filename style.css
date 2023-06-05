@@ -1,0 +1,99 @@
+
+ .container{
+     width: 60%;
+     height: 70vh;
+     margin-left: 10%;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ .card{
+     width: 98px;
+     height: 15%;
+     border: 1px solid rgb(0, 0, 0);
+     background-color: white;
+ }
+ 
+ .objetivo{
+     background-color: rgb(43, 255, 0);
+ }
+ 
+ .j1{
+     background-color: rgb(255, 0, 0);
+ }
+ 
+ .j2{
+     background-color: rgb(4, 0, 255);
+ }
+ body{
+     display:flex;
+     flex-wrap: wrap;
+ }
+ section{
+     width: 30%;
+     display:flex;
+     flex-wrap: wrap;
+ }
+ .jugadores{
+     display:flex;
+ }
+ 
+ #j1{
+     width: 130px;
+     height: 80px;
+     margin-left: 35px;
+     margin-right: 35px;
+     margin-bottom: 0px;
+ }
+ #j2{
+     width: 120px;
+     height: 80px;
+     margin-left: 35px;
+     margin-right: 35px;
+     margin-bottom: 30px;
+ }
+ p{
+     color: white;
+     font-size: x-large;
+     font-weight: 100;
+     margin-left: 15px;
+ }
+ #contador1{
+     margin-left: 100px;
+     margin-top: 30px;
+     font-size: 40px;
+     margin-bottom: 10px;
+     color: rgb(255, 0, 0);;
+ }
+ #contador2{
+    margin-left: 100px;
+     margin-top: 30px;
+     font-size: 40px;
+     margin-bottom: 20px;
+     color: rgb(47, 0, 255);;
+ }
+ button{
+     margin-top: 40px;
+     margin-left: 155px;
+     font-size: 25px;
+     padding-top: 7px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     border-radius: 10px;
+     background-color: rgb(255, 10, 239);
+     color: white;
+ }
+ button:hover{
+     background-color: rgb(107, 1, 1);
+     transition-duration: 0.3s;
+ }
+ #texto{
+    margin-left: 30px;
+    margin-top: 110px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: rgb(43, 255, 0);
+}
+ 
